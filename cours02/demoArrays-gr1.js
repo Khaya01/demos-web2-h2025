@@ -24,6 +24,12 @@ afficher(fruits);
 // Supprimer / remplacer des éléments
 // Avec .splice()
 fruits.splice(1, 1, 'framboise', 'banane')
+/*const lettres = ['A', 'B', 'C', 'D'];
+
+// Remplace 1 élément à l'index 1 par 'X' et 'Y'
+lettres.splice(1, 1, 'X', 'Y');
+
+console.log(lettres); // ['A', 'X', 'Y', 'C', 'D']*/
 // Ou avec .pop() qui retire et retourne le dernier élément
 afficher(fruits.pop());
 afficher(fruits);
